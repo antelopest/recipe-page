@@ -4,7 +4,9 @@
   "description": "## GitHub Pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/antelopest/recipe-page/issues"
   },
-  "homepage": "https://github.com/antelopest/recipe-page#readme"
+  "homepage": "https://github.com/antelopest/recipe-page#readme",
+  "devDependencies": {
+    "vite": "^7.1.2"
+  }
 }

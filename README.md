@@ -23,12 +23,11 @@ The idea, design, assets (fonts, images, icons) for the Recipe Page UI project a
 
 ## Scripts
 
-| Script            | Description                         |
-|-------------------|-------------------------------------|
-| `npm run dev`     | Start dev server + watch build      |
-| `npm run build`   | Create production build             |
-| `npm run preview` | Build + start dev server with build |
-| `npm run deploy`  | Build & deploy to GitHub Pages      |
+| Script            | Description                    |
+|-------------------|--------------------------------|
+| `npm run dev`     | Start dev server + watch build |
+| `npm run build`   | Create production build        |
+| `npm run deploy`  | Deploy to GitHub Pages         |
 
 ## License
 
