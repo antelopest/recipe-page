@@ -20,10 +20,11 @@
     <main>
       <article class="recipe">
         <header class="recipe__header">
-          <img
-            class="recipe__image"
-            src="./src/asserts/images/image-omelette.jpeg"
-            alt="Golden omelette with filling on a plate" />
+          <figure class="recipe__image">
+            <img
+              src="./src/asserts/images/image-omelette.jpeg"
+              alt="Golden omelette with filling on a plate" />
+          </figure>
           <h1 class="recipe__title">Simple Omelette Recipe</h1>
           <p class="recipe__description">
             An easy and quick dish, perfect for any meal. This classic omelette
@@ -33,11 +34,11 @@
         </header>
         <section
           class="recipe__preparation-time"
-          aria-labelledby="recipe-preparation-time-tile">
+          aria-labelledby="recipe-preparation-time-title">
           <h2
             class="recipe__preparation-time-title"
-            id="recipe-preparation-time-tile">
-            Preparation Time
+            id="recipe-preparation-time-title">
+            Preparation time
           </h2>
           <ul class="recipe__preparation-time-list">
             <li class="recipe__preparation-time-item">
@@ -54,7 +55,6 @@
             </li>
           </ul>
         </section>
-
         <section class="recipe__ingredients">
           <h2 class="recipe__ingredients-title">Ingredients</h2>
           <ul class="recipe__ingredients-list">
@@ -69,153 +69,52 @@
             </li>
           </ul>
         </section>
-
         <section class="recipe__instructions">
           <h2 class="recipe__instructions-title">Instructions</h2>
           <ol class="recipe__instructions-list">
             <li class="recipe__instructions-item">
-              Beat the eggs: In a bowl, beat the eggs with a pinch of salt and
-              pepper until they are well mixed. You can add a tablespoon of
-              water or milk for a fluffier texture.
+              <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
+              pinch of salt and pepper until they are well mixed. You can add a
+              tablespoon of water or milk for a fluffier texture.
             </li>
             <li class="recipe__instructions-item">
-              Heat the pan: Place a non-stick frying pan over medium heat and
-              add butter or oil.
+              <strong>Heat the pan:</strong> Place a non-stick frying pan over
+              medium heat and add butter or oil.
             </li>
             <li class="recipe__instructions-item">
-              Cook the omelette: Once the butter is melted and sizzling, pour in
-              the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+              <strong>Cook the omelette:</strong> Once the butter is melted and
+              sizzling, pour in the eggs. Tilt the pan to ensure the eggs evenly
+              coat the surface.
             </li>
             <li class="recipe__instructions-item">
-              Add fillings (optional): When the eggs begin to set, add the edges
-              but are still slightly runny in the middle, sprinkle your chosen
-              fillings over one half of the omelette.
+              <strong>Add fillings (optional):</strong> When the eggs begin to
+              set, add the edges but are still slightly runny in the middle,
+              sprinkle your chosen fillings over one half of the omelette.
             </li>
             <li class="recipe__instructions-item">
-              Fold and serve: As the omelette continues to cook, carefully lift
-              one edge and fold it over the fillings. Let it cook for another
-              minute, then slide it onto a plate.
+              <strong>Fold and serve:</strong> As the omelette continues to
+              cook, carefully lift one edge and fold it over the fillings. Let
+              it cook for another minute, then slide it onto a plate.
             </li>
             <li class="recipe__instructions-item">
-              Enjoy: Serve hot, with additional salt and pepper if needed.
+              <strong>Enjoy:</strong> Serve hot, with additional salt and pepper
+              if needed.
             </li>
           </ol>
         </section>
-
-        <!doctype html>
-        <html lang="en">
-          <head>
-            <meta charset="UTF-8" />
-            <meta
-              name="viewport"
-              content="width=device-width, initial-scale=1.0" />
-            <meta
-              name="description"
-              content="A simple and quick omelette recipe, perfect for any meal with optional fillings like cheese, vegetables, or meats." />
-            <meta
-              name="keywords"
-              content="omelette recipe, quick breakfast, easy recipe, cooking" />
-            <title>Simple Omelette Recipe</title>
-            <link rel="stylesheet" href="./styles.css" />
-          </head>
-          <body>
-            <main>
-              <article class="recipe">
-                <header class="recipe__header">
-                  <img
-                    src="./src/assets/images/image-omelette.jpeg"
-                    alt="Golden omelette with filling on a plate"
-                    class="recipe__image" />
-                  <h1 class="recipe__title">Simple Omelette Recipe</h1>
-                  <p class="recipe__description">
-                    An easy and quick dish, perfect for any meal. This classic
-                    omelette combines beaten eggs cooked to perfection,
-                    optionally filled with your choice of cheese, vegetables, or
-                    meats.
-                  </p>
-                </header>
-                <section class="recipe__preparation-time">
-                  <h2 class="recipe__preparation-time-title">
-                    Preparation Time
-                  </h2>
-                  <ul class="recipe__preparation-time-list">
-                    <li class="recipe__preparation-time-item">
-                      <strong>Total:</strong> Approximately 10 minutes
-                    </li>
-                    <li class="recipe__preparation-time-item">
-                      <strong>Preparation:</strong> 5 minutes
-                    </li>
-                    <li class="recipe__preparation-time-item">
-                      <strong>Cooking:</strong> 5 minutes
-                    </li>
-                  </ul>
-                </section>
-                <section class="recipe__ingredients">
-                  <h2 class="recipe__ingredients-title">Ingredients</h2>
-                  <ul class="recipe__ingredients-list">
-                    <li class="recipe__ingredients-item">2-3 large eggs</li>
-                    <li class="recipe__ingredients-item">Salt, to taste</li>
-                    <li class="recipe__ingredients-item">Pepper, to taste</li>
-                    <li class="recipe__ingredients-item">
-                      1 tablespoon of butter or oil
-                    </li>
-                    <li class="recipe__ingredients-item">
-                      Optional fillings: cheese, diced vegetables, cooked meats,
-                      herbs
-                    </li>
-                  </ul>
-                </section>
-                <section class="recipe__instructions">
-                  <h2 class="recipe__instructions-title">Instructions</h2>
-                  <ol class="recipe__instructions-list">
-                    <li class="recipe__instructions-item">
-                      Beat the eggs: In a bowl, beat the eggs with a pinch of
-                      salt and pepper until they are well mixed. You can add a
-                      tablespoon of water or milk for a fluffier texture.
-                    </li>
-                    <li class="recipe__instructions-item">
-                      Heat the pan: Place a non-stick frying pan over medium
-                      heat and add butter or oil.
-                    </li>
-                    <li class="recipe__instructions-item">
-                      Cook the omelette: Once the butter is melted and sizzling,
-                      pour in the eggs. Tilt the pan to ensure the eggs evenly
-                      coat the surface.
-                    </li>
-                    <li class="recipe__instructions-item">
-                      Add fillings (optional): When the eggs begin to set, add
-                      the edges but are still slightly runny in the middle,
-                      sprinkle your chosen fillings over one half of the
-                      omelette.
-                    </li>
-                    <li class="recipe__instructions-item">
-                      Fold and serve: As the omelette continues to cook,
-                      carefully lift one edge and fold it over the fillings. Let
-                      it cook for another minute, then slide it onto a plate.
-                    </li>
-                    <li class="recipe__instructions-item">
-                      Enjoy: Serve hot, with additional salt and pepper if
-                      needed.
-                    </li>
-                  </ol>
-                </section>
-                <section class="recipe__nutrition">
-                  <h2 class="recipe__nutrition-title">Nutrition</h2>
-                  <p class="recipe__nutrition-description">
-                    The table below shows nutritional values per serving without
-                    the additional fillings.
-                  </p>
-                  <ul class="recipe__nutrition-list">
-                    <li class="recipe__nutrition-item">Calories: 277kcal</li>
-                    <li class="recipe__nutrition-item">Carbs: 0g</li>
-                    <li class="recipe__nutrition-item">Protein: 20g</li>
-                    <li class="recipe__nutrition-item">Fat: 22g</li>
-                  </ul>
-                </section>
-              </article>
-            </main>
-          </body>
-        </html>
+        <section class="recipe__nutrition">
+          <h2 class="recipe__nutrition-title">Nutrition</h2>
+          <p class="recipe__nutrition-description">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <ul class="recipe__nutrition-list">
+            <li class="recipe__nutrition-item">Calories <b>277kcal</b></li>
+            <li class="recipe__nutrition-item">Carbs <b>0g</b></li>
+            <li class="recipe__nutrition-item">Protein <b>20g</b></li>
+            <li class="recipe__nutrition-item">Fat <b>22g</b></li>
+          </ul>
+        </section>
       </article>
     </main>
   </body>
